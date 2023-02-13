@@ -22,6 +22,21 @@ O conjunto de dados pode ser facilmente encontrado aqui: https://www.dropbox.com
 * imblearn (RandomUnderSampler)
 Você também precisará de um software que possa executar um notebook python .ipynb
 
+# Modelo para prevenção de fraudes 
+
+Um modelo de aprendizado de máquina para prevenção de fraudes funciona ao analisar padrões em dados financeiros ou de compra de um indivíduo ou empresa. A partir da análise desses padrões, o modelo é treinado para identificar transações suspeitas ou comportamentos atípicos que possam indicar fraude.
+
+O modelo é treinado usando dados históricos de transações legítimas e fraudulentas, e é alimentado com informações como horário da transação, valor da transação, localização geográfica e outros fatores relevantes. A partir desse treinamento, o modelo aprende a identificar padrões e comportamentos que possam ser indicativos de fraude.
+
+Quando uma transação é realizada, o modelo compara as informações da transação com os padrões aprendidos durante o treinamento e classifica a transação como legítima ou suspeita. Se a transação é classificada como suspeita, ela é revisada manualmente para verificar se é uma fraude ou não.
+
+Um modelo de prevenção de fraudes bem treinado pode ajudar a detectar fraudes rapidamente, minimizando o impacto financeiro e reputacional para os indivíduos ou empresas afetados. Além disso, os modelos de aprendizado de máquina também podem ser ajustados e atualizados constantemente para se adaptarem a novos padrões e comportamentos de fraude.
+
+4 modelos foram utilizados: 
+* Logistic Regretion 
+* k-nearest neighbors
+* Decision Tree
+* Naive Bayes
 
 # Resultados
 
