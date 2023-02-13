@@ -23,6 +23,17 @@ O conjunto de dados pode ser facilmente encontrado aqui: https://www.dropbox.com
 Você também precisará de um software que possa executar um notebook python .ipynb
 
 
-
-
 # Resultados
+
+### Comparação entre os modelos
+--------------------------
+  Modelo  | Acc | Mae | Rsme | TP | TN | FP | FN
+  ------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------
+  Logistic Regretion | 0.94 | 0.056 | 0.238 | 118 | 114 | 5 | 9
+  k-nearest neighbors | 0.922 | 0.077 | 0.277 | 117 | 110 | 6 | 13 
+  Decision Tree| 0.922 | 0.077| 0.277 | 117 | 110 | 6 | 13
+  Naive Bayes | 0.91 | 0.085 | 0.29 | 118 | 107 | 5 | 16
+  
+A partir dos dados apresentados acima, é possível ver que o modelo de Regressão Logística apresentou a melhor precisão, seguido de perto pelos modelos k-nearest neighbors e Decision Tree.
+
+Os modelos apresentam resultados similares em relação aos valores de TP (verdadeiros positivos), TN (verdadeiros negativos), FP (falsos positivos) e FN (falsos negativos). A diferença entre os modelos nesses valores não é significativa e, portanto, não afeta significativamente a precisão geral dos modelos. Entretanto, é importante levar em consideração que os valores de TP, TN, FP e FN são importantes para avaliar a performance dos modelos de prevenção de fraudes, já que eles representam, respectivamente, a quantidade de transações fraudulentas corretamente identificadas, a quantidade de transações não-fraudulentas corretamente identificadas, a quantidade de transações não-fraudulentas incorretamente identificadas como fraudes e a quantidade de transações fraudulentas incorretamente identificadas como não-fraudulentas.
