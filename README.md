@@ -35,10 +35,10 @@ Um modelo de prevenção de fraudes bem treinado pode ajudar a detectar fraudes 
 
 4 modelos foram utilizados:
 
-Logistic Regretion
-k-nearest neighbors
-Decision Tree
-Naive Bayes
+* Logistic Regretion
+* k-nearest neighbors
+* Decision Tree
+* Naive Bayes
 
 # Resultados
 
